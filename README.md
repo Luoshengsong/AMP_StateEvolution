@@ -16,6 +16,7 @@ $$
 \mathcal E^{(t+1)} &= \mathbb E \left [ \eta^{(t)} (X + \mathcal N (0, \tau^{(t)}_r)) - X \right]^2
 \end{aligned}
 $$
+
 where the $\mathcal E^{(t)}$ is the denoiser output error, and $\tau^{(t)}_r$ is the denoiser input variance.
 
-We note that as for the calculation of $\mathcal E^{(t+1)} &= \mathbb E \left [ \eta^{(t)} (X + \mathcal N (0, \tau^{(t)}_r)) - X \right]^2$, the expectation is taken over both variables $X$ and $Z$, and the aligned distribution is $p(X, Z)$.
+We note that as for the calculation of $\mathcal E^{(t+1)} = \mathbb E \left [ \eta^{(t)} (X + \mathcal N (0, \tau^{(t)}_r)) - X \right]^2$, the expectation is taken over both variables $X$ and $Z$, and the aligned distribution is $p(X, Z)$.
