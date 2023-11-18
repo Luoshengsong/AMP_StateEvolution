@@ -7,6 +7,7 @@ we assume the signal is Bernouli-Gaussian, and the denoiser is thre related MMSE
 We implement the state evolution by numberical integration.
 
 Specially, we characterize the state evolution as
+
 $$
 \begin{aligned}
 \tau^{(t)}_r = \frac{1}{\delta} \mathcal E^{(t)}
